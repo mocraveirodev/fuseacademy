@@ -22,14 +22,14 @@ Execução da Prototipagem, fazer o MVP, testar o produto
 - **Modelo de Negócio e entrega:**
 Como será entregue o produto testado e aprovado para  o cliente.
 
-```sh
+`
 
 Todos os cursos estão disponíveis em uma plataforma EAD.
 Os temas são baseados em conceitos, metodologia e ferramentas de inovação, onde o aluno poderá interagir com o corpo docente, ter acesso ao plantão de dúvidas com especialistas, poderá participar de fórum com outros participantes.
 Além de ter toda estrutura de aprendizagem de forma prática para facilitar a sua aplicação imediata.
 Conheça a programação:
 
-```
+`
 
 | Módulo TECH | Módulo BUSINESS |
 | ------ | ------ |
