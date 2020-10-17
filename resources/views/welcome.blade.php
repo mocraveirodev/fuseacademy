@@ -77,7 +77,7 @@
 </head>
 <body>
     <header id="header-academy">
-        <nav data-scroll-header class="navbar navbar-expand-lg bg-light navbar-light">
+        <nav data-scroll-header class="navbar navbar-expand-lg bg-white navbar-light">
             <div class="container">
                 <a data-scroll class="navbar-brand" href="#header-academy"><img class="header-logo" src="{{ asset('img/Logo Fuse IoT Academy.png') }}" alt="Logo Fuse IoT Academy"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarAcademy" aria-controls="navbarAcademy" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,23 @@
                 </div>
             </div>
         </nav>
+        <nav class="nav-bread" aria-label="breadcrumb">
+            <ol class="breadcrumb container">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="https://fuseiot.io/">fuse | IoT</a></li>
+            </ol>
+        </nav>
     </header>
+    <main>
+        <section id="banner">
+            <div class="text-banner">
+                <h1 class="titulo-banner">Conheça a <span class="logofuse">fuse | <span class="logoiot">IoT</span></span> Academy</h1>
+                <p class="sub-banner">INOVAÇÃO QUE GERA RESULTADOS.</p>
+                <a data-scroll class="btn btn-banner" href="#cursos">MÓDULO TECH</a>
+                <a data-scroll class="btn btn-banner" href="#especializacoes">MÓDULO BUSINESS</a>
+            </div> 
+        </section>
+    </main>
     <!-- <div class="flex-center position-ref full-height">
         @if (Route::has('login'))
             <div class="top-right links">
