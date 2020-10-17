@@ -1,5 +1,4 @@
 <h1 align="center">Conheça a fuse | IoT Academy</h1>
-## Quem Somos:
 <h3 align="center">A fuse IoT/Academy tem como propósito, habilitar o aluno para atender toda a cadeia de IoT, fornecendo uma base sólida de conhecimento e especialização com qualidade e competividade, preparando-o para um dos mercados mais promissores do futuro.</h3>
 
 - Resultados com aprimoramento de processos, visando a melhoria contínua dos negócios.
