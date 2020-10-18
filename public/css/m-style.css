@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 992px) {
     #banner{
-        height: 70vh;
+        height: 50vh;
     }
 
     #banner .text-banner{
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 768px) {
     #banner{
-        height: 65vh;
+        height: 45vh;
     }
 
     #banner .text-banner{
@@ -50,10 +50,6 @@
 }
 
 @media only screen and (max-width: 576px) {
-    #banner{
-        height: 85vh;
-    }
-
     #banner .titulo-banner{
         font-size: 2rem;
     }
@@ -64,10 +60,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-    #banner{
-        height: 65vh;
-    }
-
     #banner .text-banner{
         padding: 5vh 5vw;
     }
@@ -79,5 +71,217 @@
     #banner .btn-banner{
         margin-right: 0.5rem;
         font-size: 1rem;
+    }
+}
+
+/* ==========================================| SOBRE |========================================== */
+
+@media only screen and (max-width: 992px) {
+    #sobre .card{
+        margin: 0.5rem;
+    }
+
+    #sobre .card-body{
+        padding: 0;
+    }
+
+    #sobre ul{
+        margin-bottom: 1rem;
+        padding-inline-start: 0;
+    }
+
+    #sobre .player{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #sobre .player{
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #sobre .card-deck{
+        flex-direction: column;
+        padding: 0 5rem;
+    }
+
+    #sobre .card{
+        padding: 3rem;
+    }
+
+    #sobre ul{
+        margin-bottom: 2rem;
+    }
+
+    #sobre .player{
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #sobre .card-deck{
+        padding: 0 1rem;
+    }
+
+    #sobre .card{
+        padding: 2rem;
+    }
+
+    #sobre .player{
+        height: 25vh;
+    }
+}
+
+/* ==========================================| TEMA |========================================== */
+
+@media only screen and (max-width: 768px) {
+    #tema .temaimg{
+        display: none;
+    }
+
+    #tema .tematexto{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #tema ul li span{
+        font-size: 0.9rem;
+    }
+
+    #tema .imgtabbtn{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #tema ul li span{
+        font-size: 0.6rem;
+    }
+
+    #tema .imgtabbtn{
+        width: 70%;
+    }
+}
+
+/* ==========================================| MÓDULO TECH |========================================== */
+
+@media only screen and (max-width: 768px) {
+    #tech .card-body{
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    #tech ul{
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #tech .card-deck{
+        flex-flow: column wrap;
+    }
+
+    #tech .card{
+        margin: 1rem 5rem;
+    }
+
+    #tech ul{
+        padding-left: 2rem;
+    }
+
+    #tech ul li{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #tech .card{
+        margin: 1rem 2em;
+    }
+}
+
+/* ==========================================| MÓDULO BUSINESS |========================================== */
+
+@media only screen and (max-width: 768px) {
+    #business .card-body{
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    #business ul{
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #business .card-deck{
+        flex-flow: column wrap;
+    }
+
+    #business .card{
+        margin: 1rem 5rem;
+    }
+
+    #business ul{
+        padding-left: 2rem;
+    }
+
+    #business ul li{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #business .card{
+        margin: 1rem 2em;
+    }
+}
+
+/* ==========================================| MODAL |========================================== */
+
+@media only screen and (max-width: 400px) {
+    .modal-title{
+        font-size: 1rem;
+    }
+}
+
+/* ==========================================| FOOTER |========================================== */
+
+@media only screen and (max-width: 768px) {
+    footer .logo-footer{
+        width: 100%;
+        height: auto;
+    }
+
+    footer .redes{
+        justify-content: center;
+    }
+
+    footer .titulo-footer{
+        font-size: 0.7rem;
+    }
+
+    footer .col .nav-link{
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    footer .logo-footer{
+        width: 35%;
+        height: 3rem;
+    }
+
+    footer .nav-link{
+        padding: 1rem 0.5rem;
+    }
+
+    footer .redes{
+        padding-left: 0.5rem;
     }
 }

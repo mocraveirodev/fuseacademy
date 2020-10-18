@@ -127,7 +127,7 @@ header .breadcrumb{
 #banner{
     background: url('../img/banneracademy.jpg') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -162,4 +162,314 @@ header .breadcrumb{
     margin-right: 1rem;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
+}
+
+/* ==========================================| SOBRE |========================================== */
+
+#sobre{
+    background-color: #9A6E17;
+}
+
+#sobre .card-deck{
+    margin-top: -5rem;
+}
+
+#sobre .card{
+    border: none;
+    background: url('../img/Boxbranco.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 1rem;
+    margin: 0 2.5rem;
+}
+
+#sobre .card:hover{
+    background: url('../img/boxamarelo.jpg') no-repeat  center;
+    background-size: cover;
+}
+
+#sobre .card:hover .btn-card{
+    border: none;
+    background-color: #531E8A;
+    color: #fff;
+}
+
+#sobre .card-body{
+    padding: 0 1rem;
+}
+
+#sobre .icon-card{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#sobre .card-title{
+    font-family: roboto-bold, sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+#sobre ul{
+    list-style: none;
+    margin-bottom: 2rem;
+    padding-inline-start: 0;
+}
+
+#sobre ul li svg{
+    margin-right: 1rem;
+}
+
+#sobre ul li{
+    font-family: roboto-light, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+#sobre .btn-card{
+    border: 3px solid #FFBB00;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    font-family: roboto-light, sans-serif;
+    font-size: 0.8rem;
+}
+
+#sobre .sobre{
+    text-align: center;
+    color: #fff;
+    padding: 2.5rem;
+}
+
+#sobre .player{
+    width: 50%;
+    height: 45vh;
+}
+
+#sobre .texto-sobre, #tema .texto-tema{
+    text-align: justify;
+    padding: 2rem 0;
+}
+
+/* ==========================================| TEMA |========================================== */
+
+#tema{
+    color: #191816;
+    padding: 2rem 0;
+}
+
+#tema .titulo-tema{
+    font-size: 2rem;
+}
+
+#tema ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#tema ul li{
+    color: #191816;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#tema .imgtabbtn{
+    width: 50%;
+    height: auto;
+}
+
+#tema .borda{
+    width: 100%;
+    display: flex;
+}
+
+#tema .temacontent{
+    display: none;
+}
+
+#tema #ideacao{
+    display: block;
+}
+
+#tema .seta{
+    border-top: 1px solid #EEEEEE;
+    height: 2rem;
+    width: 25%;
+    position:relative;
+}
+
+#tema .top{
+    border-top: 1px solid #4181FD;
+}
+
+#tema .arrow{
+	position:absolute;
+	font-size: 0;
+	line-height: 0;
+	width: 0; 
+	height: 0; 
+	z-index:1000;
+	border:solid transparent;
+}
+#tema .down, #tema .down-b {
+	left:50%;
+	border-width: 1.3rem;
+	top:-1px;
+	margin-left:-1.3rem;
+	border-top-color: #4181FD;
+	border-bottom-width:0;
+}		
+#tema .down-b {
+	border-width:1.2rem;
+	top:-2px;
+	margin-left:-1.2rem;
+	border-top-color: #fff;
+	border-bottom-width:0;
+}
+
+#tema .content{
+    width: 100%;
+    display: flex;
+}
+
+#tema .temaimg{
+    width: 40%;
+    height: auto;
+}
+
+#tema .imgtab{
+    width: 100%;
+    height: auto;
+}
+
+#tema .tematexto{
+    width: 60%;
+    height: auto;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tema .tematexto p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+#tema .textotab{
+    font-family: roboto-light, sans-serif;
+    color: #8D8AA5;
+}
+
+/* ==========================================| CURSOS |========================================== */
+
+#cursos .titulo-cursos{
+    color: #2933AF;
+    margin-bottom: 2rem;
+}
+
+/* ==========================================| MODULO TECH |========================================== */
+
+#tech{
+    background-color: #2933AF;
+    color: #FFFFFF;
+}
+
+#tech .card-deck{
+    background-color: #FFFFFF;
+    color: #191816;
+}
+
+#tech .card{
+    text-align: left;
+}
+
+#tech ul li{
+    font-size: 0.6rem;
+}
+
+/* ==========================================| MODULO BUSINESS |========================================== */
+
+#business{
+    background-color: #F2F3CB;
+    color: #2933AF;
+}
+
+#business .card-deck{
+    background-color: #FFFFFF;
+    color: #191816;
+}
+
+#business .card{
+    text-align: left;
+}
+
+#business ul li{
+    font-size: 0.6rem;
+}
+
+/* ==========================================| MODAL |========================================== */
+
+.logonav{
+    width: 7rem;
+    height: auto;
+}
+
+.modal-header .close{
+    margin: 0;
+    padding: 0;
+}
+
+.modal-header{
+    align-items: center;
+}
+
+/* ==========================================| FOOTER |========================================== */
+
+footer{
+    background-color: #111111;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+footer .col .nav-link{
+    padding: 0.5rem 0;
+}
+
+footer .logo-footer{
+    width: auto;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    color: #fff;
+    font-family: roboto-light, sans-serif;
+    font-size: 0.8rem;
+}
+
+footer .titulo-footer{
+    color: #fff;
+    font-family: roboto-medium, sans-serif;
+    font-size: 1rem;
+}
+
+footer img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+footer .col-4 .flex-column{
+    margin-bottom: 2rem;
 }
